@@ -40,7 +40,7 @@
   <PropertyGroup>
     <NoConfig>true</NoConfig>
     <NoStdLib>true</NoStdLib>
-    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAddi dfghionalExplicitAssemblyReferences>
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
