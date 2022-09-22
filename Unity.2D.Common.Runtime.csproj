@@ -24,12 +24,12 @@
     <OutputPath>Temp\Bin\Debug\</OutputPath>
     <DefineConstants>UNITY_2021_3_6;UfgNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWERfghj
     <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
+    <NoWarn>0169</NoWarn>ghcj
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>cvgh
-    <OutputPath>Temp\bin\Release\</OutputPath>
+    <OutputPath>Temp\bin\Release\</OutputPath>vghj
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
