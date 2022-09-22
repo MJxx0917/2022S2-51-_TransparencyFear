@@ -6,7 +6,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
+    <ProductVersion>10.0.20506</ProductVersion>fghj
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>fghjf
     <ProjectGuid>{E3D61941-F118-68C2-420D-6789DB96D6E2}</ProjectGuid>
@@ -18,7 +18,7 @@
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>fghj
+    <DebugSymbols>true</DebugSymbols>fghjfghj
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
@@ -50,7 +50,7 @@
     <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-    <UnityVersion>2020.3.38f1</UnityVersion>
+    <UnityVersion>2020.3.38f1</UnityVersion>fghj
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
