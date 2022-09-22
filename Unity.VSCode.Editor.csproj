@@ -51,13 +51,13 @@
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.38f1</UnityVersion>
-  </PropertyGroup>cvh
+  </PropertyGroup>cvh 
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\VSCodeDiscovery.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\StringUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ide.vs code@1.2.5\Editor\ProjectGeneration\StringUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\GUIDGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\ProjectGeneration.cs" />
