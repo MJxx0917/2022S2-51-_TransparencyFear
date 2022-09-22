@@ -11,7 +11,7 @@
     <RootNamespace></RootNamespace>
     <ProjectGuid>{E3D61941-F118-68C2-420D-6789DB96D6E2}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AppDesignerFolder>Properties</AppDesignerFolder>fghj
     <AssemblyName>UnityEditor.TestRunner</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
