@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
     <ProjectGuid>{CBC2079F-2AB6-5213-3D5F-3A394CF4E59A}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Library</OutputTyp
     <AppDesignerFolder>Properties</AppDesignerFolder>sdfg
     <AssemblyName>Unity.VSCode.Editor</AssemblyName>sdfg
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
