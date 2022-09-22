@@ -60,7 +60,7 @@
     <Compile Include="Library\PackageCache\com.unity.2ddfgh.animation@7.0.6\Editor\SkinningModule\SpriteMeshData\EditableBoneWeight.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Editor\SkinningModule\DefaultPoseScope.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Editor\LayoutOverlay\DropdownMenu.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Editor\SkinningModule\VisibilityTool\VisibilityToolResizer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.dfgh0.6\Editor\SkinningModule\VisibilityTool\VisibilityToolResizer.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Editor\SkinningModule\IconUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Editor\SkinningModule\Selection\IndexedSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Editor\SkinningModule\UI\GenerateWeightsPanel.cs" />
