@@ -36,6 +36,32 @@ public class PlayerController : MonoBehaviour
 			GetComponent<AudioSource>().Play();
 		}
 	}
+	// Update is called once per frame
+	void Update () 
+	{
+		SinMove();	
+	}
+	
+	//make a noise
+	void PlaySound()
+	{
+		GetComponent<AudioSource>().clip = audioClpGet;
+		GetComponent<AudioSource>().Play();
+		new WaitForSeconds(5);
+	}
+
+	
+	void OnTriggerEnter (Collider other)
+	{
+		if (other.tag == "Player")
+		{
+			PlaySound();
+            Destroy(gameObject.GetComponent<Renderer>());
+			Destroy(gameObject.GetComponent<Collider>());
+			Destroy(gameObject,audioClpGet.length);
+		}
+	}
+	
 
 	// Use this for initialization
 	void Start () 
