@@ -19,6 +19,20 @@ public class ShopBackMenu : MonoBehaviour
     }
     */
 
+	void OnTriggerEnter (Collider other)
+	{
+		if (other.tag == "Player")
+		{
+			PlaySound();
+            Destroy(gameObject.GetComponent<Renderer>());
+			Destroy(gameObject.GetComponent<Collider>());
+			Destroy(gameObject,audioClpGet.length);
+		}
+	}
+	
+	
+	public float MoveRange;
+	public float MoveSpeed;
     public void ShopBackToMenu()
     {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
