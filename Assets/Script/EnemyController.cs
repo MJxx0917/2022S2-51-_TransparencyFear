@@ -13,7 +13,23 @@ public class EnemyController : MonoBehaviour
 	
 	private Vector3 velocity = Vector3.zero;
 	
-
+if (needTest )
+//		{
+//			GameObject []objs = GameObject.FindGameObjectsWithTag("Enemy");
+//			foreach (GameObject obj in objs)
+//			{
+//				EnemyController controller = obj.GetComponent<EnemyController>();
+//				if (controller.d1 == EnemyController.Direction.goleft)
+//				{
+//					controller.d1 = EnemyController.Direction.goright;
+//				}
+//				else
+//				{
+//					controller.d1 = EnemyController.Direction.goleft;
+//				}
+//			}
+//			needTest = false;
+//		}		
 	// Use this for initialization
 	void Start ()
 	{
