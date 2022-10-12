@@ -11,6 +11,17 @@ public class Diamond : MonoBehaviour
 			
 	}
 	
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("money"))
+        {
+            Debug.Log("amount:" + diamondAmount);
+            Destroy(collision.gameObject);
+
+            diamondAmount++;
+            coinText.text = "COIN:" + diamondAmount;
+        }
+	
 	// Update is called once per frame
 	void Update () 
 	{
