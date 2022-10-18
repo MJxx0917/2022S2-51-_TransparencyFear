@@ -26,7 +26,7 @@ public class Finish : MonoBehaviour
 		{
 			IsNext = false;
 			int index = Application.loadedLevel;
-			if(index == 6)
+			if(index == 8)
 			{
 				index = 0;
 				Application.LoadLevel(index);
@@ -50,6 +50,7 @@ public class Finish : MonoBehaviour
 	
 	void OnGUI()
 	{
+		
 		if (IsNext)
 		{
 			GUI.DrawTexture(new Rect(Screen.width/2 - txtWin.width/2, Screen.height/2 - txtWin.height/2, txtWin.width, txtWin.height), txtWin, ScaleMode.ScaleToFit, true, 0);
@@ -58,6 +59,7 @@ public class Finish : MonoBehaviour
 		{
 			GUI.DrawTexture(new Rect(Screen.width/2 - txtWin.width/2, Screen.height/2 - txtWin.height/2, txtWin.width, txtWin.height), txtLost, ScaleMode.ScaleToFit, true, 0);
 		}
+		
 	}
 	
 	bool IsPlayed = false;

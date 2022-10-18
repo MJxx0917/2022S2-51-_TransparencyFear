@@ -5,9 +5,14 @@ using UnityEngine.UI;
 
 public class coinManager : MonoBehaviour
 {
-
-
     private static int diamondAmount = 0;
+    void Start()
+    {
+        if (SaveManager.instance.hasLoaded)
+        {
+            diamondAmount = SaveManager.instance.activeSave.diamondAmount;
+		}
+    }
 
     [SerializeField] private Text coinText;
 
@@ -21,5 +26,5 @@ public class coinManager : MonoBehaviour
             diamondAmount++;
             coinText.text = "COIN:" + diamondAmount;
         }
-    }
+	}
 }

@@ -21,6 +21,6 @@ public class ShopBackMenu : MonoBehaviour
 
     public void ShopBackToMenu()
     {
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 9);
 	}
 }

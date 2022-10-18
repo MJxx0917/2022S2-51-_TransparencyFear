@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour 
 {
@@ -59,6 +60,7 @@ public class PlayerController : MonoBehaviour
 			
 			jumpEnable = false;
 			
+			//run
 			if (velocity.x == 0)
 			{
 				transform.GetComponent<Renderer>().material = idleMaterial;
@@ -89,6 +91,7 @@ public class PlayerController : MonoBehaviour
 			}
 		}
 		
+		//jump
 		if (IsAlive && !controller.isGrounded && !IsFinished)
 		{
 			velocity.x = Input.GetAxis("Horizontal");
@@ -114,6 +117,7 @@ public class PlayerController : MonoBehaviour
 			}
 		}
 		
+		//finish
 		if (IsFinished)
 		{
 			if (changeDirection == false)
@@ -129,9 +133,11 @@ public class PlayerController : MonoBehaviour
 			}
 			velocity.x = 0;
 		}
+
+		//judge if die
 		
 		if (!IsAlive)
-		{			
+		{	
 			if (dieAnimPlayed == false)			
 			{
 				transform.GetComponent<Renderer>().material = dieMaterial;
@@ -155,7 +161,7 @@ public class PlayerController : MonoBehaviour
 			}
 			velocity.x = 0;
 		}
-		
+	
 		if (velocity.x < 0)
 			changeDirection = false;
 		
@@ -165,5 +171,5 @@ public class PlayerController : MonoBehaviour
 		velocity.y -= gravity*Time.deltaTime;
 		controller.Move(velocity*Time.deltaTime);
 	}
-	
+
 }

@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scence/Options.unity
     guid: 926ca3ccbca59ce42a9393619038ff47
   - enabled: 1
-    path: Assets/Scence/End_Game.unity
-    guid: 51e4c9d448d77b14f8e5f064ee3edf5f
-  - enabled: 1
     path: Assets/Scence/Volume_Settings.unity
     guid: 7724a805d039af34480582e956cbea25
   - enabled: 1
@@ -27,6 +24,18 @@ EditorBuildSettings:
     path: Assets/Scence/Level3.unity
     guid: cde4533dc13657140985283e9fe68361
   - enabled: 1
+    path: Assets/Scence/Level4.unity
+    guid: 38063221e071b5441ae3d1f1c4b6953c
+  - enabled: 1
+    path: Assets/Scence/Level5.unity
+    guid: f1a3eefa45b49be41b9c13b5aeaca9ff
+  - enabled: 1
+    path: Assets/Scence/End_Game.unity
+    guid: 51e4c9d448d77b14f8e5f064ee3edf5f
+  - enabled: 1
     path: Assets/Scence/Shop.unity
     guid: b1d801e1b58be3f40a48746515fa036c
+  - enabled: 1
+    path: Assets/Scence/FinalBossBattle.unity
+    guid: faa055f76afdadf4e8caca9d30a72e72
   m_configObjects: {}

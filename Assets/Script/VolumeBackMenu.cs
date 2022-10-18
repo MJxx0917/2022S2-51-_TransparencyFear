@@ -21,6 +21,6 @@ public class VolumeBackMenu : MonoBehaviour
 
     public void Volume_Back_Menu()
     {
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
 	}
 }
