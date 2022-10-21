@@ -352,6 +352,7 @@
 "Assets/Script/EndGameBackMenu.cs"
 "Assets/Script/EnemyController.cs"
 "Assets/Script/Finish.cs"
+"Assets/Script/Frightened.cs"
 "Assets/Script/HealthManager.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/OpenCloseStory.cs"

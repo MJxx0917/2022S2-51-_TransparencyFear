@@ -5,18 +5,11 @@ using UnityEngine.UI;
 
 public class coinManager : MonoBehaviour
 {
-    private static int diamondAmount = 0;
-    void Start()
-    {
-        if (SaveManager.instance.hasLoaded)
-        {
-            diamondAmount = SaveManager.instance.activeSave.diamondAmount;
-		}
-    }
+	public static int diamondAmount = 0;
 
-    [SerializeField] private Text coinText;
+	[SerializeField] public Text coinText;
 
-    private void OnTriggerEnter(Collider collision)
+    public void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("money"))
         {
@@ -26,5 +19,16 @@ public class coinManager : MonoBehaviour
             diamondAmount++;
             coinText.text = "COIN:" + diamondAmount;
         }
+
+        if(collision.gameObject.CompareTag("Treat"))
+		{
+			if (diamondAmount > 0 && HealthManager.health < 5)
+			{
+				Debug.Log("amount:" + diamondAmount);
+				diamondAmount--;
+				coinText.text = "COIN:" + diamondAmount;
+				HealthManager.health++;
+			}
+		}
 	}
 }

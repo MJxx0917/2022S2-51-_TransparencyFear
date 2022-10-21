@@ -11,11 +11,6 @@ public class OpenCloseStory: MonoBehaviour
 	{
 		if (active == false)
 		{
-			gameObject.transform.gameObject.SetActive(true);
-			active = true;
-		}
-		else
-		{
 			gameObject.transform.gameObject.SetActive(false);
 			active = false;
 		}

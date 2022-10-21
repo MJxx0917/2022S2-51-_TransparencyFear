@@ -16,6 +16,7 @@ public class CollisionTest : MonoBehaviour
 			if (HealthManager.health <= 0)
 			{
 				controller.IsAlive = false;
+				SceneManager.LoadScene("Level1");
 				HealthManager.health = 5;
 			}
 		}

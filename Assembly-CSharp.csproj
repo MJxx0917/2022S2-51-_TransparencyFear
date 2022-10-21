@@ -86,6 +86,7 @@
     <Compile Include="Assets\Script\OpenCloseStory.cs" />
     <Compile Include="Assets\Script\BattleHUD.cs" />
     <Compile Include="Assets\Script\SceneController.cs" />
+    <Compile Include="Assets\Script\Frightened.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
