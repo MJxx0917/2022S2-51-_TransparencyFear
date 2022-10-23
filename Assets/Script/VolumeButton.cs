@@ -23,4 +23,4 @@ public class VolumeButton : MonoBehaviour
     {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 	}
-}
+} 
