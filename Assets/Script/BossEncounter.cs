@@ -7,6 +7,7 @@ public class BossEncounter : MonoBehaviour
 {
 	void OnTriggerEnter(Collider Info)
 	{
+	        //this is on trigger event that will be appeared on Level 5, players will have a battle with boss 
 		if (Info.tag == "Player")
 		{
 			GameObject obj = GameObject.FindWithTag("Player");
