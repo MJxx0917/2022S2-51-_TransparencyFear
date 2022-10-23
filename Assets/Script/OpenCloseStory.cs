@@ -7,6 +7,7 @@ public class OpenCloseStory: MonoBehaviour
 	public GameObject gameObject;
 	bool active;
 
+        //before every level start, players will read a story and hints, this is a button to close panel;
 	public void OpenAndClose()
 	{
 		if (active == false)
