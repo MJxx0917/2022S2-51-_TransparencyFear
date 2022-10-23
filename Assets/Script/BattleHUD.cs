@@ -10,6 +10,7 @@ public class BattleHUD : MonoBehaviour
 	public Text levelText;
 	public Slider hpSlider;
 
+        // the level of player and final boss in battle UI
 	public void SetHUD(Unit unit)
 	{
 		nameText.text = unit.unitName;
@@ -18,6 +19,7 @@ public class BattleHUD : MonoBehaviour
 		hpSlider.value = unit.currentHP;
 	}
 
+        //HP of final boss and player
 	public void SetHP(int hp)
 	{
 		hpSlider.value = hp;
