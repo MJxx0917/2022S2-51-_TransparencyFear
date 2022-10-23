@@ -51,4 +51,4 @@ public class CollisionTest : MonoBehaviour
 			controller.IsAlive = false;
 		}
 	}
-}
+} 
