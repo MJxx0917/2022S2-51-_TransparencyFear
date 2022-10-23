@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 public class SaveManager : MonoBehaviour
 {
+    //not yet done
     public static SaveManager instance;
 
     public SaveData activeSave;
