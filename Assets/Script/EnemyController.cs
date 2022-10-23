@@ -66,5 +66,5 @@ public class EnemyController : MonoBehaviour
 		}
 		velocity.y -= gravity*Time.deltaTime;
 		enemyController.Move(velocity*Time.deltaTime);
-	}	
+	}	 
 }
