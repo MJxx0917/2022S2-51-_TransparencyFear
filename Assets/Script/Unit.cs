@@ -15,6 +15,7 @@ public class Unit : MonoBehaviour
 
 	public bool TakeDamage(int dmg)
 	{
+	        //damage when final boss attack player
 		currentHP -= dmg;
 
 		if (currentHP <= 0)
@@ -29,6 +30,7 @@ public class Unit : MonoBehaviour
 
 	public void Heal(int amount)
 	{
+	        //terat in battle
 		currentHP += amount;
 		if (currentHP > maxHP)
 			currentHP = maxHP;
