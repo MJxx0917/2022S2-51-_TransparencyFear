@@ -22,11 +22,14 @@ public class coinManager : MonoBehaviour
 
         if(collision.gameObject.CompareTag("Treat"))
 		{
+		        //judge if player's HP less than 5 and coins are greater than 0
 			if (diamondAmount > 0 && HealthManager.health < 5)
 			{
 				Debug.Log("amount:" + diamondAmount);
+				//cost 1 coin to treat player
 				diamondAmount--;
 				coinText.text = "COIN:" + diamondAmount;
+				//treat 1 HP
 				HealthManager.health++;
 			}
 		}
