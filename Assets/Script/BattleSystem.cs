@@ -97,6 +97,7 @@ public class BattleSystem : MonoBehaviour
 
 	void EndBattle()
 	{
+	        //states of win or lose
 		if(state == BattleState.WON)
 		{
 			dialogueText.text = "You won the battle!";
