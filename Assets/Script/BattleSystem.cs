@@ -111,6 +111,7 @@ public class BattleSystem : MonoBehaviour
 
 	void PlayerTurn()
 	{
+	        //dialogue of battle UI
 		dialogueText.text = "Choose an action:";
 	}
 
