@@ -7,6 +7,7 @@ public class Frightened : MonoBehaviour
 {
     [SerializeField] private Image image;
 
+    //The player walking somewhere will trigger the picture popup event.
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
