@@ -23,4 +23,4 @@ public class Shop : MonoBehaviour
     {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
 	}
-}
+} 
