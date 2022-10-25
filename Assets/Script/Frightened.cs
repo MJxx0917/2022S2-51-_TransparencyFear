@@ -11,14 +11,11 @@ public class Frightened : MonoBehaviour
     //The player walking somewhere will trigger the picture popup event.
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && amount == 0)
         {
-	   if( amount == 0 )
-	   {
             image.enabled = true;
-			GetComponent<AudioSource>().Play();
-			amount++;
-	   }
+	    GetComponent<AudioSource>().Play();
+	    amount++;
 	}
     }
 
