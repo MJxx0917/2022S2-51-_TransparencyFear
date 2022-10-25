@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class MenuList : MonoBehaviour
 {
-	public GameObject menuList;
+	public GameObject menuList; // init menuList object
 
-	[SerializeField] private bool menukeys = true;
+	[SerializeField] private bool menukeys = true; // init boolean of menukeys
 	[SerializeField] private AudioSource bgmSound;
 
 	// Start is called before the first frame update
@@ -20,7 +20,7 @@ public class MenuList : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (menukeys)
+		if (menukeys) // esc core function type false
 		{
 			if (Input.GetKeyDown(KeyCode.Escape))
 			{
@@ -30,7 +30,7 @@ public class MenuList : MonoBehaviour
 				bgmSound.Pause();
 			}
 		}
-		else if (Input.GetKeyDown(KeyCode.Escape))
+		else if (Input.GetKeyDown(KeyCode.Escape)) // esc core function type true
 		{
 			menuList.SetActive(false);
 			menukeys = true;
